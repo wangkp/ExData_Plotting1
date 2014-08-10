@@ -26,3 +26,4 @@ legend("topright", lty = 1, col = c("black", "red", "blue"), legend = c("Sub_met
 ## plot SE
 plot(newd$Datetime, newd$Global_reactive_power, type = "l", xlab = "datetime", 
     ylab = "Global_reactive_power", ylim = c(0, 0.5))
+dev.off()
